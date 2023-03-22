@@ -1,4 +1,13 @@
 *{
-    font-size: 1.3rem;
-    color:brown
+    color:cornflowerblue;
+}
+
+
+.highlight{
+    font-size: 1.2rem;
+    color:blue;
+}
+
+.center{
+    text-align: center;
 }
