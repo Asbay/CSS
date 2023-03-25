@@ -1,0 +1,7 @@
+p.about::first-letter{
+    font-size: 2rem;
+}
+
+p.about::first-line{
+    color: red;
+}
