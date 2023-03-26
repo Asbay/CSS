@@ -5,3 +5,21 @@ p.about::first-letter{
 p.about::first-line{
     color: red;
 }
+p.about::selection{
+    background-color: chartreuse;
+}
+.list{
+    color:red;
+}
+
+.list li::marker{
+    color: blue;
+    font-size: 2rem;
+}
+.title::before{
+    content:"";
+    
+}
+.title::after{
+    content: ">";
+}
