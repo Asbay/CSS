@@ -1,0 +1,34 @@
+:root{
+    --color1: #d1b7b0;
+    --color2:#FF8790;
+    --color3:white;
+    --color4: #F44336;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.stackfindover{
+    display: flex;
+    padding: 25px;
+    background-image: linear-gradient(var(--color1), var(--color2));
+}
+.stackfindover .logo{
+    display: flex;
+
+    align-items: center;
+    color: var(--color3);
+    gap: 10px;
+
+}
+.stackfindover .logo h3{
+    margin:0;
+    margin-bottom: -7px;
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+.stackfindover .logo span{
+    font-size: 0.7rem;
+}
