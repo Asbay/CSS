@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../image/resim4_720.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.baslik{
+    text-align: center;
+    font-size: 3rem;
+    background-color: azure;
+}
+.aylar{
+    display: inline-block;
+    background-color: rgb(186, 170, 201);
+    width: 20%;
+    margin: 0;
+}
+div h2{
+    background-color: azure;
+    text-align: center;
+}
+div.mevsimler{
+    display: inline-block;
+    background-color: blanchedalmond;
+    width: 20%;
+}
+.gunler{
+    display: inline-block;
+    background-color: aqua;
+    width: 20%;
+}
