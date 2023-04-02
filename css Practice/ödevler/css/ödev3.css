@@ -1,35 +1,35 @@
 body{
   background-color: aliceblue;
-  padding: 1rem;
+  padding: 3rem;
 }
-.menu-buton {
-    border:dimgrey;
-    background-color: black;
-    cursor: pointer;
-    font-size: 24px;
-  }
+
   
-  .menu-buton i {
-    color:white;
-  }
-  
+  input.button {
+    display: none;
+}
+
+input.button[type="checkbox"]:checked+.menu {
+  display: block;
+}
+
 .menu {
     display: none;
     position: absolute;
-    width: 200px;
-    padding: 0;
+    width: 100px;
+  padding: 0;
     list-style: none;
-    background-color: rgb(174, 172, 172);
-    border: 1px solid white;
+    background-color:lightgrey;
+    border: 1px solid rgb(13, 0, 0);
     color: white
   }
   
 
-  .menu-buton:focus + .menu,
-  .menu-btn:active + .menu {
-    display: block;
-  }
   
+  .menu-button {
+    background-color: black;
+    color:white;
+    padding: 5px;
+  }
  
   
 
@@ -38,7 +38,6 @@ body{
     display: block;
    padding: 10px;
     text-decoration: none;
-    
     text-align: center;
     color: white
   }
@@ -46,7 +45,9 @@ body{
  
   .menu li:hover {
     background-color: black;
-    color: white
+    color: white;
+    cursor: pointer;
+    
   }
  
   

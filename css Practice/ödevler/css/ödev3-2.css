@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul.menu {
+    list-style-type: none;
+    width: 10%;
+    text-align: center;
+}
+
+input.button {
+    display: none;
+    /* checkbox gizlendi */
+}
+
+
+ul.menu {
+    display: none;
+    /* menuü gizlendi */
+    padding: 20px;
+    margin: 20px;
+    user-select: none;
+    /* yazıların seçilmesi engellendi */
+}
+
+
+
+input.button[type="checkbox"]:checked+.menu {
+    display: block;
+}
+
+
+label.menu-button i {
+    position: absolute;
+    font-size: 40px;
+    left: 20px;
+    top: 0;
+    cursor: pointer;
+    /* el simgesi çıraktıldı */
+
+}
+
+
+
+ul.menu li {
+    padding: 10px;
+    background-color: lime;
+    margin-left: -30px;
+
+}
+
+
+.menu li:hover,
+.menu li:nth-child(1):hover {
+    background-color: royalblue;
+    transition: 0.5s;
+
+}
+
+
+ul.menu li::before {
+    content: "\🍋";
+    position: absolute;
+    left: 25px;
+
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+ul.menu li a:hover {
+    color: white;
+}
+
+
+ul.menu li:nth-child(1) {
+    background-color: gray;
+}
