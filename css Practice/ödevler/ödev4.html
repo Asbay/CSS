@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/ödev4.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
+   
     <table border="1">
-        <thead>
+        <thead class="thead">
             <tr>
                 <th>Ürün Kodu</th>
                 <th>Ürün Adi</th>
                 <th>Miktar</th>
-                <th>Birim Fiyat</th>
-                <th>Ara Toplam</th>
+                <th class="fiyat">Birim Fiyat</th>
+                <th class="fiyat">Ara Toplam</th>
                 <th></th>
             </tr>
         </thead>
@@ -24,13 +32,67 @@
                 <th>154654</th>
                 <th>Notebook</th>
                 <th>1</th>
-                <th>5.400$</th>
-                <th>5.400$</th>
-                <th><i class="fa-regular fa-rectangle-list"></i></th>
-                
+                <th class="fiyat">5.400$</th>
+                <th class="fiyat">5.400$</th>
+                <th><i class="fa-regular fa-rectangle-list"><i class="fa-regular fa-trash-can"></i></i></th>   
             </tr>
+            <tr>
+                <th>456466</th>
+                <th>Klavye</th>
+                <th>2</th>
+                <th class="fiyat">80$</th>
+                <th class="fiyat">160$</th>
+                <th><i class="fa-regular fa-rectangle-list"><i class="fa-regular fa-trash-can"></i></i></th>
+            </tr>
+            <tr>
+                <th>564646</th>
+                <th>Monitör</th>
+                <th>1</th>
+                <th class="fiyat">700$</th>
+                <th class="fiyat">700$</th>
+                <th><i class="fa-regular fa-rectangle-list"><i class="fa-regular fa-trash-can"></i></i></th>
+            </tr>
+            <tr>
+                <th>123598</th>
+                <th>Mouse</th>
+                <th>2</th>
+                <th class="fiyat">50$</th>
+                <th class="fiyat">100$</th>
+                <th><i class="fa-regular fa-rectangle-list"><i class="fa-regular fa-trash-can"></i></i></th>
+            </tr>
+            <tr>
+                <th>613448</th>
+                <th>Play Station</th>
+                <th>1</th>
+                <th class="fiyat">2.500$</th>
+                <th class="fiyat">2.500$</th>
+                <th><i class="fa-regular fa-rectangle-list"><i class="fa-regular fa-trash-can"></i></i></th>
+            </tr>
+            <tr>
+                <th>789799</th>
+                <th>Usb Bellek</th>
+                <th>3</th>
+                <th class="fiyat">120$</th>
+                <th class="fiyat">360$</th>
+                <th><i class="fa-regular fa-rectangle-list"><i class="fa-regular fa-trash-can"></i></i></th>
+            </tr>
+            <tfoot class="foot">
+                <tr>
+                    <th colspan="4">TOPLAM</th>
+                    <th>9.220$</th>
+                    <th></th>
+                </tr>
+            </tfoot>
         </tbody>
     </table>
+   
+<footer>
+    <label for="chk" class="menu-button"><i class="fa-solid fa-cart-arrow-down"></i>Alisverise devam</label>
+    <input class="button" type="checkbox" id="chk">
+    <label for="chk" class="menu-button"><i class="fa-regular fa-credit-card"></i>Ödemeye gec</label>
+    <input class="button" type="checkbox" id="chk">
     
+</footer>
+
 </body>
 </html>

@@ -1,0 +1,33 @@
+.foot{
+    background-color: black;
+    color: white;
+}
+.thead{
+    background-color: black;
+    color: white;
+}
+.fiyat{
+    text-align: right;
+}
+tr :first-child{
+    text-align: left;
+}
+tr :nth-child(2){
+    text-align: left;
+}
+
+.button{
+    display: none;
+}
+table{
+    margin: 2rem;
+}
+
+.menu-button{
+    background-color: crimson;
+    padding: 0.3rem;
+    margin-align: right;
+    border: 1px solid black;
+    
+}
+
