@@ -1,0 +1,55 @@
+:root{
+    --color1: rgb(70, 189, 244);
+    --color2: #FBB040;
+    --color3: black;
+
+
+}
+body{
+    font-family: 'Nunito';
+    margin: 0;
+}
+section.topbar{
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+
+}
+section.topbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    
+}
+section.topbar ul a{
+    color: var(--color2);
+    text-decoration: none;
+}
+
+
+
+section.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+section.menubar img{
+    width: 300px;
+    height: auto;
+}
+
+section.menubar ul a{
+    text-decoration: none;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 5px 10px;
+    display: inline-block;
+}
