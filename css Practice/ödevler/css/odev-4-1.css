@@ -1,0 +1,11 @@
+thead{background-color: rgb(33, 32, 32);
+    color:white;}
+    tbody tr:nth-child(odd){background-color: rgb(146, 145, 144);}
+    tbody tr:nth-child(even){background-color: rgb(205, 207, 208);}
+    tfoot{background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: right;}
+    div{
+    margin-left:140px;
+    }
+    button:hover{background-color: #FBFF00;}

@@ -9,11 +9,12 @@
 .fiyat{
     text-align: right;
 }
-tr :first-child{
+ tr :first-child{
     text-align: left;
 }
-tr :nth-child(2){
+tbody tr :nth-child(odd){
     text-align: left;
+    background-color: darkgrey;
 }
 
 .button{
@@ -23,11 +24,13 @@ table{
     margin: 2rem;
 }
 
-.menu-button{
-    background-color: crimson;
-    padding: 0.3rem;
-    margin-align: right;
-    border: 1px solid black;
-    
-}
-
+div{
+    margin-left:140px;
+    }
+    button:hover{
+        background-color: blueviolet;
+        
+    }
+    button a{
+        color: black;
+    }
