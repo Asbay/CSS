@@ -63,7 +63,7 @@ section.menubar ul a:hover{
 }
 
 section.slider{
-    background-image: url("../img/nature.jpg");
+    background-image: url("/img/nature_720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
